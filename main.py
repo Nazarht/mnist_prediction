@@ -33,7 +33,7 @@ model.eval()
 
 # Streamlit App
 st.title("MNIST Digit Recognizer")
-st.write("Draw a digit or upload an image of a digit.")
+st.write("Draw a digit.")
 
 # Drawable Canvas
 canvas_result = st_canvas(
