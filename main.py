@@ -57,7 +57,6 @@ if canvas_result.image_data is not None:
 
     # Make prediction
     with torch.no_grad():
-        print(image)
         outputs = model(image)
         _, predicted = torch.max(outputs, 1)
 
